@@ -41,9 +41,36 @@
       </li>
      </ul>
 
-     <form>
-      
-     </form>
+     <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+      </select>
+      <br>
+
+      <label for="country">Country:</label>
+      <input type="text" id="country" name="country" required>
+      <br>
+
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" rows="4" required></textarea>
+      <br>
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+  </form>
+
      
 
 
